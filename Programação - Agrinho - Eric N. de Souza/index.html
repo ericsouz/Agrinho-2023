@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Study Vital</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <style>
+
+    .hidden {
+      display: none;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .header {
+        width: 100%;
+        padding: 0;
+      }
+
+      .nav {
+        display: none;
+      }
+
+      .section {
+        width: 100%;
+      }
+
+      .footer {
+        text-align: center;
+      }
+    }
+
+  </style>
+
+  <style>
+
+    .hidden {
+      display: none;
+    }
+  </style>
+  <script>
+    function showSection(sectionId) {
+      var sections = document.getElementsByTagName("section");
+      for (var i = 0; i < sections.length; i++) {
+        sections[i].classList.add("hidden");
+      }
+      document.getElementById(sectionId).classList.remove("hidden");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div style="display: flex; align-items: center;">
+      <img src="logo_study_vital.png" alt="logo_study_vital" style="width: 140px; height: auto;">
+      <big><big><h1 style="margin-left: 10px;">Study Vital</h1></big></big>
+    </div>
+    <nav>
+      <ul>
+        <big><li><a href="#" onclick="showSection('intro')">Home</a></li></big>
+        <big><li><a href="#" onclick="showSection('profissoes')">Profissões</a></li></big>
+        <big><li><a href="#" onclick="showSection('orientacao')">Orientação Vocacional</a></li></big>
+        <big><li><a href="#" onclick="showSection('inspiracoes')">Inspirações</a></li></big>
+        <big><li><a href="#" onclick="showSection('forum')">Fórum</a></li></big>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section id="intro">
+    <h2>Seja bem vindo ao Study Vital!</h2>
+    <h4>Este site é livre é destinado a estudantes e todos que buscam encontrar uma carreira para seguir, em meio a tantas opções contemporâneas, estamos aqui para auxiliar e fornecer informações sobre áreas de interesse.
+    </h4>
+
+    <h3>Quem Somos e com qual finalidade este site foi criado:</h3>
+    <h4>Seu criador é o estudante Eric Souza, do 2° ano do Ensino Médio, no ano de 2023, sob supervisão do professor Francisco Biudes de Matemática/Programação
+    </h4>
+
+    <h4>Este site é livre e foi criado com o intuito de participação no programa paranaense Agrinho de 2023.
+    </h4>
+    
+  <h3>O que você pode encontrar neste website?</h3>
+    <h4>Diversas profissões e alguns relatos de profissionais bem sucedidos nas áreas da saúde, educação, e tecnologias</h4>
+  </section>
+
+
+
+
+  <section id="profissoes" class="hidden"> 
+                                                                        <h2>Profissões</h2>
+    <ul>
+        <h4>As seguintes profissões contam com exemplos de áreas muito importantes e relevantes no mundo contemporâneo</h4>
+
+      
+      <li>
+        <h3>Administração</h3>
+        <p>A Administração é uma área que engloba a coordenação e organização de recursos humanos, materiais e financeiros em uma organização. O profissional de Administração é responsável por planejar, organizar, liderar e controlar os processos e atividades de uma empresa ou instituição, visando atingir os objetivos estratégicos e garantir o seu bom funcionamento. Ele também toma decisões, gerencia equipes, estabelece metas e avalia resultados.</p>
+      </li>
+      
+      <li>
+        <h3>Analista de dados</h3>
+        <p>O Analista de Dados é um profissional que coleta, organiza e analisa grandes volumes de dados para obter insights e auxiliar na tomada de decisões estratégicas. Ele utiliza técnicas e ferramentas de análise de dados para identificar padrões, tendências e informações relevantes que possam ser utilizadas para otimizar processos, melhorar a eficiência e obter vantagem competitiva. O Analista de Dados possui conhecimentos em estatística, programação e modelagem de dados.</p>
+      </li>
+      
+      <li>
+        <h3>Bioinformata</h3>
+        <p>O Bioinformata é um profissional que aplica técnicas de análise de dados e computação para interpretar e compreender informações genéticas e biológicas. Ele utiliza ferramentas e softwares específicos para analisar sequências de DNA, RNA e proteínas, identificar padrões e realizar estudos relacionados à genômica, proteômica e outras áreas da biologia. O Bioinformata contribui para o avanço da pesquisa científica e o desenvolvimento de novas terapias e tratamentos.</p>
+      </li>
+      
+      <li>
+        <h3>Biotecnologia</h3>
+        <p>A Biotecnologia é uma área que utiliza conhecimentos da biologia, química e engenharia para desenvolver produtos e processos que visam melhorar a qualidade de vida e solucionar problemas nas áreas da saúde, agricultura, meio ambiente, entre outras. O profissional de Biotecnologia aplica técnicas e tecnologias avançadas para manipular e modificar organismos vivos, como células e micro-organismos, com o objetivo de desenvolver novos medicamentos, terapias, alimentos e produtos sustentáveis.</p>
+      </li>
+      
+      <li>
+        <h3>Cientista de dados</h3>
+        <p>O Cientista de Dados é um profissional multidisciplinar que combina conhecimentos de estatística, programação e domínio de negócios para extrair insights valiosos a partir de grandes volumes de dados. Ele utiliza técnicas de análise, modelagem e visualização de dados para identificar padrões, realizar previsões, criar modelos preditivos e desenvolver soluções inovadoras para problemas complexos. O Cientista de Dados trabalha em diversas áreas, como empresas de tecnologia, finanças, saúde e marketing.</p>
+      </li>
+      
+      <li>
+        <h3>Cibersegurança</h3>
+        <p>A Cibersegurança é uma área que se dedica a proteger sistemas, redes e dados contra ataques cibernéticos. O profissional de Cibersegurança desenvolve estratégias de segurança, implementa medidas de proteção, realiza testes de vulnerabilidade e investiga incidentes de segurança. Ele está sempre atualizado sobre as últimas ameaças e tendências em segurança da informação, visando garantir a confidencialidade, integridade e disponibilidade das informações e sistemas.</p>
+      </li>
+      
+      
+      <li>
+        <h3>Direito</h3>
+        <p>O Direito é uma ciência que estuda e regula as relações entre indivíduos, organizações e o Estado. O profissional de Direito, também conhecido como advogado, é responsável por aplicar as leis, defender os direitos e interesses de seus clientes, solucionar conflitos e promover a justiça. Ele atua em diversas áreas do direito, como direito civil, criminal, trabalhista, ambiental, empresarial, entre outras, representando pessoas físicas e jurídicas em processos judiciais e extrajudiciais.</p>
+      </li>
+      
+      <li>
+        <h3>Desenvolvimento de software</h3>
+        <p>O Desenvolvimento de Software envolve o processo de criação, programação e manutenção de sistemas e aplicativos computacionais. O profissional de Desenvolvimento de Software, também chamado de programador ou desenvolvedor, utiliza linguagens de programação e frameworks para transformar ideias e requisitos em código executável. Ele trabalha em equipe, segue metodologias de desenvolvimento, realiza testes e depuração de software, visando entregar soluções tecnológicas eficientes e funcionais.</p>
+      </li>
+      
+      <li>
+        <h3>Engenheiro de inteligência artificial</h3>
+        <p>O Engenheiro de Inteligência Artificial é um profissional especializado em desenvolver sistemas e tecnologias que possam simular a inteligência humana. Ele aplica conceitos de aprendizado de máquina, processamento de linguagem natural, visão computacional e algoritmos avançados para criar soluções inteligentes e automatizadas. O Engenheiro de Inteligência Artificial trabalha em projetos de desenvolvimento de chatbots, assistentes virtuais, reconhecimento de padrões, análise de dados e outras aplicações de IA.</p>
+      </li>
+      
+      <li>
+        <h3>Engenharia da computação</h3>
+        <p>A Engenharia da Computação é uma área que combina conhecimentos de engenharia e ciência da computação para projetar, desenvolver e manter sistemas computacionais. O profissional de Engenharia da Computação trabalha com hardware, software e redes, atuando desde a concepção e projeto de computadores e dispositivos eletrônicos até a criação de aplicativos e soluções tecnológicas. Ele pode trabalhar em empresas de tecnologia, indústrias, instituições de pesquisa, entre outros setores.</p>
+      </li>
+      
+      <li>
+        <h3>Fisioterapeuta</h3>
+        <p>O Fisioterapeuta é um profissional da área de saúde que utiliza técnicas e terapias físicas para promover a reabilit
+      
+      ação e o bem-estar dos pacientes. Ele atua no diagnóstico, prevenção e tratamento de doenças, lesões e disfunções do sistema musculoesquelético, neurológico, respiratório e cardiovascular. O Fisioterapeuta realiza avaliações, prescreve exercícios terapêuticos, aplica técnicas de massagem, estimulação elétrica e outras modalidades para promover a recuperação funcional e a qualidade de vida dos pacientes.</p>
+      </li>
+      
+      <li>
+        <h3>Forense digital</h3>
+        <p>A Forense Digital é uma área que utiliza conhecimentos de tecnologia da informação e investigação para coletar, preservar e analisar evidências digitais em casos judiciais ou investigações corporativas. O profissional de Forense Digital utiliza ferramentas e técnicas especializadas para recuperar dados de dispositivos eletrônicos, identificar atividades criminosas, investigar incidentes de segurança e fornecer provas técnicas em processos legais. Ele possui conhecimentos em informática, segurança da informação e legislação.</p>
+      </li>
+      
+      <li>
+        <h3>Gerente de projetos</h3>
+        <p>O Gerente de Projetos é um profissional responsável por planejar, coordenar e controlar todas as etapas de um projeto, desde a concepção até a entrega final. Ele define objetivos, aloca recursos, gerencia equipes, acompanha prazos e custos, e garante a qualidade e o sucesso do projeto. O Gerente de Projetos utiliza metodologias e ferramentas específicas para garantir a eficiência e a eficácia na execução dos projetos, atuando em diversos setores e áreas de negócio.</p>
+      </li>
+      
+      <li>
+        <h3>Gerontólogo</h3>
+        <p>O Gerontólogo é um profissional especializado no estudo do envelhecimento e nas questões relacionadas ao cuidado e bem-estar dos idosos. Ele atua em diferentes contextos, como instituições de longa permanência, hospitais, centros de reabilitação e programas de saúde pública. O Gerontólogo realiza avaliações geriátricas, desenvolve planos de cuidados, orienta e apoia os idosos e suas famílias, promovendo a qualidade de vida na terceira idade.</p>
+      </li>
+      
+      <li>
+        <h3>Hidrólogo</h3>
+        <p>O Hidrólogo é um profissional que estuda e analisa os recursos hídricos, como rios, lagos, aquíferos e oceanos, e sua relação com o meio ambiente e as atividades humanas. Ele realiza levantamentos, coleta e analisa dados hidrológicos, como níveis de água, vazões e qualidade da água, para entender e prever fenômenos como enchentes, secas e impactos ambientais. O Hidrólogo também desenvolve estratégias de gestão e conservação dos recursos hídricos.</p>
+      </li>
+      
+      <li>
+        <h3>Humanólogo</h3>
+        <p>O Humanólogo é um profissional que estuda e trabalha com questões relacionadas ao ser humano, como comportamento, desenvolvimento, relações interpessoais, cultura e sociedade. Ele utiliza conhecimentos de diversas áreas, como psicologia, sociologia, antropologia e filosofia, para compreender e intervir nas dinâmicas humanas. O Humanólogo pode atuar em áreas como educação, recursos humanos, assistência social, pesquisa social e consultoria.</p>
+      </li>
+      
+      <li>
+        <h3>Instrutor de realidade virtual</h3>
+        <p>O Instrutor de Realidade Virtual é um profissional que utiliza tecnologias de realidade virtual para criar e fornecer treinamentos e experiências imersivas. Ele desenvolve conteúdos interativos, simulações e ambientes virtuais que permitem aos usuários adquirirem habilidades e conhecimentos de forma prática e segura. O Instrutor de Realidade Virtual pode atuar em diversas áreas, como educação, treinamento corporativo, saúde, entretenimento e indústria.</p>
+      </li>
+      
+      <li>
+        <h3> Inteligência artificial designer </h3>
+        <p>Um designer de inteligência artificial (AI) é um profissional que projeta e desenvolve sistemas de inteligência artificial (IA). Eles trabalham em uma variedade de indústrias, incluindo saúde, finanças, varejo e tecnologia. Os designers de IA usam suas habilidades técnicas e criatividade para criar sistemas que podem aprender, entender e tomar decisões.</p>
+      </li>
+      
+      <li>
+        <h3>Jardineiro vertical</h3>
+        <p>O Jardineiro Vertical é um profissional especializado em criar e manter jardins verticais, também conhecidos como paredes verdes. Ele utiliza técnicas de jardinagem e paisagismo para cultivar plantas em estruturas verticais, como paredes de edifícios, fachadas e muros. O Jardineiro Vertical seleciona as espécies adequadas, realiza o plantio, irrigação e manutenção das plantas, criando ambientes sustentáveis, esteticamente agradáveis e que contribuem para a qualidade do ar e o bem-estar das pessoas.</p>
+      </li>
+      
+      <li>
+        <h3>Jornalista de dados</h3>
+        <p>O Jornalista de Dados é um profissional que combina habilidades de jornalismo, estatística e visualização de dados para coletar, analisar e comunicar informações de forma clara e acessível. Ele utiliza técnicas de coleta e limpeza de dados, análise estatística e ferramentas de visualização para identificar padrões, contar histórias e produzir reportagens baseadas em dados. O Jornalista de Dados contribui para o jornalismo investigativo, a transparência e a democratização da informação.</p>
+      </li>
+      
+      <li>
+        <h3>Kinesiologista</h3>
+        <p>O Kinesiologista é um profissional da área da saúde que estuda e aplica os princípios do movimento humano. Ele realiza avaliações funcionais,
+
+       prescreve exercícios terapêuticos e utiliza técnicas de reabilitação para tratar lesões musculoesqueléticas, melhorar a mobilidade e promover a saúde e o bem-estar dos pacientes. O Kinesiologista trabalha em conjunto com outros profissionais de saúde, como fisioterapeutas e médicos, atuando em clínicas, hospitais e centros de reabilitação.</p>
+      </li>
+      
+      <li>
+        <h3>Key Account Manager</h3>
+        <p>O Key Account Manager é um profissional responsável por estabelecer e manter relacionamentos estratégicos com os principais clientes de uma empresa. Ele atua como o ponto focal entre a empresa e seus clientes-chave, identificando suas necessidades, elaborando propostas comerciais, negociando contratos e garantindo a satisfação do cliente. O Key Account Manager desenvolve planos de vendas e trabalha em estreita colaboração com equipes internas para garantir o sucesso da parceria comercial.</p>
+      </li>
+      
+      <li>
+        <h3>Linguista computacional</h3>
+        <p>O Linguista Computacional é um profissional que combina conhecimentos de linguística e tecnologia da informação para desenvolver e aprimorar sistemas de processamento de linguagem natural. Ele trabalha com algoritmos, modelos e técnicas de processamento de texto e fala para desenvolver sistemas de tradução automática, chatbots, reconhecimento de voz e outras aplicações que envolvem a interação entre humanos e computadores por meio da linguagem.</p>
+      </li>
+      
+      <li>
+        <h3>Líder de equipe de vendas</h3>
+        <p>O Líder de Equipe de Vendas é um profissional responsável por coordenar, motivar e orientar uma equipe de vendedores para atingir as metas de vendas estabelecidas pela empresa. Ele monitora o desempenho da equipe, fornece treinamento e suporte, desenvolve estratégias de vendas, acompanha o ciclo de vendas e estabelece relacionamentos com clientes-chave. O Líder de Equipe de Vendas também atua como elo de comunicação entre a equipe de vendas e a gerência.</p>
+      </li>
+      
+      <li>
+        <h3>Medicina</h3>
+        <p>A Medicina é uma área da saúde que engloba o diagnóstico, tratamento, prevenção e estudo das doenças humanas. O profissional de Medicina, conhecido como médico, realiza exames clínicos, solicita e interpreta exames complementares, prescreve medicamentos, realiza cirurgias e fornece cuidados médicos em geral. Ele pode se especializar em diferentes áreas, como pediatria, cardiologia, neurologia, ortopedia, entre outras, visando atender às necessidades específicas de cada paciente.</p>
+      </li>
+      
+      <li>
+        <h3>Minerador de dados</h3>
+        <p>O Minerador de Dados é um profissional que utiliza técnicas e algoritmos de análise de dados para descobrir padrões, tendências e informações úteis a partir de grandes conjuntos de dados. Ele aplica métodos de mineração de dados para extrair conhecimento, identificar correlações e realizar previsões em áreas como marketing, finanças, ciência, entre outros. O Minerador de Dados utiliza ferramentas de software especializadas e possui conhecimentos em estatística, programação e modelagem de dados.</p>
+      </li>
+      
+      <li>
+        <h3>Nutrigeneticista</h3>
+        <p>O Nutrigeneticista é um profissional que estuda a relação entre os genes de um indivíduo e sua resposta aos nutrientes e dieta. Ele utiliza conhecimentos de genética e nutrição para identificar variações genéticas que podem influenciar a resposta do organismo a determinados alimentos e nutrientes. O Nutrigeneticista trabalha com o aconselhamento genético e desenvolve estratégias personalizadas de nutrição e dieta com base nas características genéticas dos indivíduos.</p>
+      </li>
+      
+      <li>
+        <h3>Neuroengenheiro</h3>
+        <p>O Neuroengenheiro é um profissional que aplica princípios de engenharia e ciências da computação para estudar e desenvolver soluções relacionadas ao sistema nervoso e ao cérebro humano. Ele trabalha na interface entre a engenharia e a neurociência, projetando dispositivos e técnicas para estimulação neural, interface cérebro-computador, neuroimagem e outras aplicações relacionadas ao campo da neuroengenharia. O Neuroengenheiro contribui para avanços na pesquisa, diagnóstico e tratamento de distúrbios neurológicos e lesões cerebrais.</p>
+      </li>
+      
+      <li>
+        <h3>Optometrista</h3>
+        <p>O Optometrista é um profissional da área da saúde especializado em cuidar da saúde visual e prescrever lentes corretivas, como óculos e lentes de contato. Ele realiza exames de rotina, avalia a acuidade visual, prescreve correção óptica, realiza diagnósticos de problemas visuais e encaminha pacientes para tratamentos oftalmológicos quando necessário. O Optometrista também pode oferecer orientações sobre cuidados visuais e prevenção de doenças oculares.</p>
+      </li>
+      
+      <li>
+        <h3>Otimizador de SEO</h3>
+        <p>O Otimizador de SEO (Search Engine Optimization) é um profissional que trabalha para melhorar a visibilidade e o posicionamento de um site nos resultados dos mecanismos de busca, como o Google. Ele utiliza técnicas de otimização on-page e off-page, realiza análises de palavras-chave, otimiza conteúdos, ajusta a estrutura do site e desenvolve estratégias de link building para melhorar o tráfego orgânico e a classificação nos resultados de pesquisa. O Otimizador de SEO acompanha as tendências e atualizações dos algoritmos de busca para manter o site relevante e competitivo.</p>
+      </li>
+      
+      <li>
+        <h3>Perito em segurança cibernética</h3>
+        <p>O Perito em Segurança Cibernética é um profissional especializado em investigar e solucionar incidentes de segurança na área digital. Ele utiliza conhecimentos avançados em segurança da informação, tecnologias de
+      
+       criptografia, análise forense e técnicas de detecção de ameaças para identificar e responder a ataques cibernéticos, recuperar dados perdidos e prevenir futuros incidentes. O Perito em Segurança Cibernética atua em empresas, órgãos governamentais, instituições financeiras e outras organizações que precisam proteger seus sistemas e dados contra ameaças digitais.</p>
+      </li>
+      
+      <li>
+        <h3>Psicologia</h3>
+        <p>A Psicologia é uma ciência que estuda o comportamento humano e os processos mentais. O profissional de Psicologia, conhecido como psicólogo, realiza avaliações, diagnósticos e intervenções terapêuticas para ajudar as pessoas a lidar com problemas emocionais, comportamentais e de saúde mental. Ele utiliza técnicas e abordagens terapêuticas, como a psicoterapia, e pode atuar em diferentes contextos, como clínicas, hospitais, escolas, empresas e instituições de saúde.</p>
+      </li>
+      
+      <li>
+        <h3>Químico computacional</h3>
+        <p>O Químico Computacional é um profissional que utiliza métodos e ferramentas da computação para realizar simulações e modelagens de sistemas químicos. Ele aplica princípios da química e técnicas de programação para estudar a estrutura molecular, as propriedades químicas e os processos reativos. O Químico Computacional contribui para o desenvolvimento de novos materiais, fármacos e catalisadores, além de auxiliar na compreensão de fenômenos químicos complexos.</p>
+      </li>
+      
+      <li>
+        <h3>Quant</h3>
+        <p>O Quant (Quantitative Analyst) é um profissional que utiliza modelos matemáticos, estatísticos e computacionais para analisar e tomar decisões financeiras. Ele trabalha em instituições financeiras, como bancos e fundos de investimento, desenvolvendo estratégias de negociação, realizando pesquisas de mercado, modelando riscos e criando algoritmos de negociação automatizada. O Quant utiliza conhecimentos avançados em finanças, estatística e programação para obter insights e vantagens competitivas no mercado financeiro.</p>
+      </li>
+      
+      <li>
+        <h3>Roboticista</h3>
+        <p>O Roboticista é um profissional que projeta, desenvolve e programa robôs para realizar tarefas específicas. Ele utiliza conhecimentos de engenharia, eletrônica, mecânica e programação para criar sistemas robóticos autônomos ou controlados remotamente. O Roboticista trabalha em diferentes áreas, como indústria, pesquisa, medicina, exploração espacial, entre outras, contribuindo para o avanço da tecnologia robótica e suas aplicações práticas.</p>
+      </li>
+      
+      <li>
+        <h3>Redator de conteúdo digital</h3>
+        <p>O Redator de Conteúdo Digital é um profissional que cria e produz textos e materiais digitais para websites, blogs, redes sociais, e-books, entre outros meios online. Ele desenvolve conteúdos relevantes, atrativos e otimizados para os mecanismos de busca, seguindo as estratégias de marketing de conteúdo. O Redator de Conteúdo Digital utiliza técnicas de copywriting, pesquisa de palavras-chave e storytelling para engajar o público e alcançar os objetivos de comunicação.</p>
+      </li>
+      
+      <li>
+        <h3>Social media manager</h3>
+        <p>O Social Media Manager é um profissional responsável por gerenciar a presença de uma marca ou empresa nas redes sociais. Ele cria e executa estratégias de marketing nas redes sociais, desenvolve conteúdos, interage com os seguidores, monitora métricas de desempenho e realiza campanhas publicitárias. O Social Media Manager utiliza ferramentas de análise de dados e conhece as tendências das redes sociais para maximizar o alcance e o engajamento do público-alvo.</p>
+      </li>
+      
+      <li>
+        <h3>Scrum Master</h3>
+        <p>O Scrum Master é um profissional que atua como facilitador e líder de uma equipe que utiliza a metodologia ágil Scrum para desenvolver projetos. Ele orienta a equipe no uso das práticas ágeis, remove impedimentos, garante a execução correta dos processos e promove a melhoria contínua. O Scrum Master facilita a comunicação e colaboração entre os membros da equipe, mantendo o foco nas metas e entregas do projeto.</p>
+      </li>
+      
+      <li>
+        <h3>Terapeuta ocupacional</h3>
+        <p>O Terapeuta Ocupacional é um profissional da área de saúde que auxilia pessoas com dificuldades físicas, emocionais ou cognitivas a realizar atividades diárias de forma independente e funcional. Ele utiliza técnicas terapêuticas, adaptações ambientais e treinamento de habilidades para promover a autonomia, a qualidade de vida e a reintegração social dos pacientes. O Terapeuta Ocupacional trabalha em hospitais, clínicas, escolas e outros ambientes de reabilitação.</p>
+      </li>
+      
+      <li>
+        <h3>Tecnologia da Informação</h3>
+        <p>A Tecnologia da Informação (TI) é uma área que engloba o estudo, desenvolvimento, implementação e gerenciamento de sistemas de informação e infraestrutura tecnológica. O profissional de Tecnologia da Informação trabalha com hardware, software, redes de computadores, segurança da informação e banco de dados. Ele é responsável por garantir o funcionamento dos sistemas de TI, suportar usuários, desenvolver e implementar soluções tecnológicas alinhadas com as necessidades da empresa.</p>
+      </li>
+      
+      <li>
+        <h3>Urbanista</h3>
+        <p>O Urbanista é um profissional que estuda e planeja o desenvolvimento e o ordenamento de áreas urbanas. Ele utiliza conhecimentos de arquitetura, planejamento urbano, transporte, meio ambiente e sociologia para criar soluções que melhorem a qualidade de vida e a sustentabilidade das cidades. O Urbanista trabalha na elaboração de planos diretores, projetos de revitalização urbana, avaliação de impacto ambiental e consultoria em políticas públicas relacionadas
+       ao urbanismo.</p>
+      </li>
+      
+      <li>
+        <h3>UX designer</h3>
+        <p>O UX Designer (User Experience Designer) é um profissional que trabalha para criar experiências digitais positivas e intuitivas para os usuários. Ele realiza pesquisas, análises de usuários, prototipagem e testes para compreender as necessidades e expectativas dos usuários e projetar interfaces e interações eficientes e agradáveis. O UX Designer colabora com equipes de desenvolvimento, design e marketing para garantir a usabilidade e a satisfação dos usuários em produtos e serviços digitais.</p>
+      </li>
+      
+      <li>
+        <h3>Veterinário especializado em animais exóticos</h3>
+        <p>O Veterinário Especializado em Animais Exóticos é um profissional que cuida da saúde e do bem-estar de animais não tradicionais, como aves, répteis, animais de zoológico, animais silvestres e animais de estimação exóticos. Ele realiza exames clínicos, diagnósticos, tratamentos e cirurgias, além de fornecer orientações sobre nutrição, manejo e cuidados específicos para cada espécie. O Veterinário Especializado em Animais Exóticos pode atuar em clínicas, hospitais veterinários e instituições de conservação da vida selvagem.</p>
+      </li>
+      
+      <li>
+        <h3>Vendedor online</h3>
+        <p>O Vendedor Online é um profissional que realiza vendas pela internet, utilizando plataformas de e-commerce, marketplaces e redes sociais. Ele é responsável por criar anúncios, gerenciar estoques, responder dúvidas de clientes, realizar negociações e acompanhar o processo de entrega dos produtos. O Vendedor Online utiliza estratégias de marketing digital, como SEO, mídias sociais e e-mail marketing, para aumentar a visibilidade e o alcance de seus produtos e alcançar um público maior.</p>
+      </li>
+      
+      <li>
+        <h3>Web designer</h3>
+        <p>O Web Designer é um profissional responsável por criar e desenvolver interfaces visuais atrativas e funcionais para sites e aplicações web. Ele combina habilidades de design gráfico, programação e usabilidade para criar layouts, elementos visuais, animações e interações que proporcionem uma boa experiência de usuário. O Web Designer utiliza ferramentas de design, linguagens de programação web e frameworks para implementar suas criações de forma responsiva e otimizada para diferentes dispositivos.</p>
+      </li>
+      
+      
+      <li>
+        <h3>Xenobiólogo</h3>
+        <p>O Xenobiólogo é um profissional que estuda e investiga formas de vida extraterrestre ou alienígena. Ele utiliza conhecimentos de biologia, astrobiologia e exobiologia para entender as possíveis formas de vida existentes em outros planetas ou ambientes hostis. O Xenobiólogo pode realizar pesquisas, participar de missões espaciais e contribuir para a busca de vida fora da Terra.</p>
+      </li>
+      
+      <li>
+        <h3>Xilógrafo</h3>
+        <p>O Xilógrafo é um artista ou gravurista que utiliza a técnica da xilografia para criar imagens ou gravuras em relevo em uma matriz de madeira. Ele entalha a madeira, remove as partes que não fazem parte da imagem e imprime as gravuras por meio de pressão em papel ou outros suportes. O Xilógrafo utiliza ferramentas específicas, como goivas e buris, e possui habilidades artísticas e conhecimentos técnicos para criar obras de arte únicas e expressivas.</p>
+      </li>
+      
+      <li>
+        <h3>Yoga instructor</h3>
+        <p>O Yoga Instructor é um profissional que ensina e orienta práticas de yoga para indivíduos ou grupos. Ele possui conhecimentos sobre as posturas (asanas), técnicas de respiração (pranayama), meditação e filosofia do yoga. O Yoga Instructor guia os alunos na prática, corrige a postura e incentiva o equilíbrio entre corpo, mente e espírito. Ele pode ministrar aulas em estúdios de yoga, academias, empresas e oferecer sessões particulares.</p>
+      </li>
+      
+      <li>
+        <h3>Youth counselor</h3>
+        <p>O Youth Counselor é um profissional que oferece suporte e orientação a jovens e adolescentes em questões relacionadas ao desenvolvimento pessoal, emocional e social. Ele atua como um conselheiro, ouvinte e mediador, auxiliando os jovens a lidar com problemas, conflitos, questões familiares, escolares e emocionais. O Youth Counselor pode trabalhar em escolas, centros comunitários, instituições de apoio à juventude
+      
+       e organizações sem fins lucrativos.</p>
+      </li>
+      
+      <li>
+        <h3>Zoólogo</h3>
+        <p>O Zoólogo é um profissional que estuda os animais em seu habitat natural, analisando seu comportamento, características físicas, relações ecológicas e evolução. Ele coleta e analisa dados, realiza observações e pesquisas de campo, identifica espécies, estuda ecossistemas e contribui para a conservação da biodiversidade. O Zoólogo pode trabalhar em instituições de pesquisa, universidades, zoológicos, parques nacionais e órgãos de proteção ambiental.</p>
+      </li>
+      
+      <li>
+        <h3>Zelador de dados</h3>
+        <p>O Zelador de Dados é um profissional que gerencia e mantém a integridade, qualidade e segurança dos dados de uma organização. Ele desenvolve e implementa políticas de governança de dados, estabelece padrões de qualidade, realiza a limpeza e a organização dos dados, monitora o acesso e o uso adequado das informações. O Zelador de Dados trabalha em conjunto com equipes de tecnologia da informação e áreas de negócio para garantir a confiabilidade e a eficiência dos dados utilizados pela organização.</p>
+      </li>
+
+    </ul>
+  
+</section>
+
+
+
+
+  <section id="orientacao" class="hidden">
+                                                                  <h2>Orientação Vocacional</h2>
+    <h4>Antes de escolher uma profissão, é importante considerar as seguintes perguntas/questões:</h4>
+
+      <h2>Interesses pessoais:</h2> 
+      <p>Quais são seus interesses, hobbies e paixões? Quais atividades você gosta de fazer? </p>
+      
+      <h2>Habilidades e talentos:</h2>
+      <p>Quais são suas habilidades naturais? Quais talentos você possui? </p> 
+      
+      <h2>Valores e propósito:</h2>
+      <p>Quais são seus valores pessoais e o que é importante para você?</p> 
+
+       <h2>Quais são suas motivações e o que você deseja alcançar em sua carreira? </h2>
+       <p>Escolher uma profissão que esteja alinhada com seus valores pessoais 
+        e que lhe proporcione um senso de propósito pode trazer maior satisfação e realização.</p>
+      
+       <h2>Estilo de trabalho:</h2>
+       <p>Você prefere trabalhar em equipe ou de forma independente?</p>
+       <p>Gosta de trabalhar em ambientes tranquilos ou dinâmicos? </p>
+       <p>Considerar seu estilo de trabalho
+        e preferências pode ajudar a encontrar profissões que se adequem ao seu modo de trabalho preferido.<p>
+      
+        <h2>Estilo de vida:</h2>
+        <p>Qual estilo de vida você deseja ter?</p>
+
+        <h2>Quais são suas prioridades em termos de equilíbrio entre trabalho e vida pessoal? </h2>
+       <p>Algumas profissões exigem horários irregulares, viagens constantes ou alto nível de dedicação, 
+       enquanto outras podem oferecer maior flexibilidade. </p>
+      
+       <h2>Oportunidades de carreira:</h2>
+        <p>Como está o mercado de trabalho para a profissão que você está considerando?</p>
+      <p>Quais são as perspectivas de crescimento e oportunidades de desenvolvimento profissional?</p>
+      <p>É importante pesquisar e avaliar as tendências do mercado de trabalho antes de tomar uma decisão.</p>
+      
+      <h2>Estudo e formação:</h2> 
+      <p>Quais são os requisitos educacionais e de formação para a profissão escolhida? </p> 
+
+      <h2>Você está disposto a investir tempo e recursos em sua educação e desenvolvimento profissional?</h2>
+      <p>Considere os caminhos acadêmicos e as opções de formação necessárias para ingressar na profissão desejada. </p>
+      
+      <h2>Experiência prática:</h2>
+        <p>Busque oportunidades para obter experiência prática na área que você está considerando. </p> 
+      <p>Estágios, voluntariado ou projetos relacionados podem ajudá-lo a entender melhor a profissão,
+         desenvolver habilidades e tomar uma decisão mais informada.</p>
+
+         <h2>Em suma:</h2>
+         <h4>Se, ao considerar uma profissão, você não se vê trabalhando nela por, pelo menos, 30 anos, essa pode não ser a escolha certa para você.</h4>    
+  </section>
+
+
+
+
+  <section id="inspiracoes" class="hidden">
+    <h2>Inspirações</h2>
+    <h4>Grandes personagens que podem influenciar na tomada de decisão:</h4>
+
+    <ul>
+      <li>
+        <h3>Elon Musk</h3>
+        <p>Engenheiro e empresário visionário, fundador da Tesla, SpaceX, Neuralink e SolarCity, entre outras empresas. Ele é conhecido por sua expertise em engenharia, tecnologia e inovação.</p>
+      </li>
+      <li>
+        <h3>Neil deGrasse Tyson</h3>
+        <p>Astrofísico, autor e comunicador científico, conhecido por popularizar a ciência. Ele tem ampla expertise em astronomia e é diretor do Planetário Hayden, no Museu Americano de História Natural.</p>
+      </li>
+      <li>
+        <h3>Angela Merkel</h3>
+        <p>Política e cientista, Merkel foi a primeira mulher a ocupar o cargo de chanceler da Alemanha. Física e doutora em Química Quântica, ela tem conhecimentos em ciência e é uma figura política proeminente na Europa.</p>
+      </li>
+      <li>
+        <h3>Warren Buffett</h3>
+        <p>Investidor bilionário e empresário, considerado um dos investidores mais bem-sucedidos de todos os tempos. Buffett é conhecido por sua expertise em investimentos e estratégias financeiras.</p>
+      </li>
+      <li>
+        <h3>Bill Gates</h3>
+        <p>Cofundador da Microsoft, filantropo e defensor da saúde global e educação.</p>
+      </li>
+      <li>
+        <h3>Michelle Obama</h3>
+        <p>Advogada, escritora e ex-primeira-dama dos Estados Unidos, envolvida em causas como educação, saúde e empoderamento feminino.</p>
+      </li>
+      <li>
+        <h3>Serena Williams</h3>
+        <p>Tenista profissional, considerada uma das maiores atletas de todos os tempos e defensora da igualdade de gênero no esporte.</p>
+      </li>
+    </ul>
+
+        <h4>Grandes nomes da história:</h4>
+    
+    <h4>Cientistas:</h4>
+     <p>Marie Curie, Albert Einstein, Isaac Newton, Louis Pasteur, Ada Lovelace, Galileu Galilei, entre outros. </p>
+    <p>Essas pessoas contribuíram com descobertas e invenções que mudaram a ciência e a tecnologia, e que têm impacto até hoje na nossa compreensão do universo e da vida. </p>
+    
+    <h4>Ativistas:</h4> 
+    <p>Martin Luther King Jr., Nelson Mandela, Malala Yousafzai, Greta Thunberg, Angela Davis, entre outros. </p>
+    <p>Essas pessoas lutaram e lutam por causas sociais importantes, como os direitos humanos, a igualdade racial, a educação, o meio ambiente, entre outras. Elas são exemplos de coragem, liderança e compromisso com a justiça e a paz. 
+    
+    <h4>Artistas:</h4> 
+    <p>Leonardo da Vinci, Frida Kahlo, Pablo Picasso, Vincent van Gogh, Beyoncé, Ariana Grande, entre outros.</p>
+    </p>Essas pessoas expressaram sua criatividade e talento através de diferentes formas de arte, como pintura, música, literatura, cinema, etc. Elas influenciaram a cultura e a estética de diversas épocas e lugares, e inspiraram outras pessoas a se expressarem artisticamente.</p>
+
+  </section>
+
+
+
+
+  <section id="forum" class="hidden">
+  <h2>Fórum de Discussão</h2>
+
+   <div style="display: flex; align-items: center;">
+    <h3 style="margin-right: 100px;">
+      <p style="display: block; margin: 0;">Estudantes, participem do nosso grupo do Discord para poderem discutir e debater</p>
+      <p style="display: block; margin: 0;">questões atuais relacionadas à saúde, educação e transformação global.</p>
+      <p style="display: block; margin: 0;">Isso pode ajudar a desenvolver habilidades de pensamento crítico, promover o </p>
+      <p style="display: block; margin: 0;">diálogo construtivo e fomentar a consciência sobre problemas sociais.</p>
+    </h3>
+    <a href="https://discord.gg/R4snGvNESh" target="_blank">
+      <img src="discord-logo.svg" alt="logo_discord" style="width: 100px; height: auto;">
+    </a>
+  </div>
+
+  </section>
+  
+
+      <div style='display:none;'>
+        Feito por Eric Noventa de Souza, 2°ano Stella Maris, Andirá, PR - 2023 Concurso Agrinho
+      </div>
+      <footer>
+        <p>&copy; 2023 Study Vital</p>
+
+      </footer>
+    </body>
+    </html>
